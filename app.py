@@ -25,7 +25,7 @@ while True:
     num += 1
 
 df = pd.DataFrame(bike_dict)
-st.write("# 따릉이 시각화")
+st.write("# 따릉이 시각화 결과")
 st.write(df)
 
 layer = pdk.Layer(
